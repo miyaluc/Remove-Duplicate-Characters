@@ -7,6 +7,11 @@ namespace Duplicate_Characters_Deleted
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            Removal instance = new Removal();
+            instance.RemoveDuplicates("Warner Robbins");
+            instance.RemoveDuplicates("What a lucky duck");
+            Console.ReadLine();
         }
     }
 }
