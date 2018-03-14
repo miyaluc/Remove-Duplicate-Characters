@@ -11,6 +11,7 @@ namespace Duplicate_Characters_Deleted
             Removal instance = new Removal();
             instance.RemoveDuplicates("Warner Robbins");
             instance.RemoveDuplicates("What a lucky duck");
+            instance.RemoveDuplicates("What a wonderful world");
             Console.ReadLine();
         }
     }
